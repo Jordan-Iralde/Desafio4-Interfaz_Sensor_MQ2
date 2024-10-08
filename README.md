@@ -1,5 +1,9 @@
 # Desafio4-Interfaz_Sensor_MQ2
 
+## Documentación
+
+https://docs.google.com/document/d/1l-YgR61G4tXOCF7lm9tJ6MXk71gIP1nglVBSKCm5ll4/edit?usp=sharing
+
 ---
 Desafío 4: Desarrollo de una Interfaz para la Visualización de Datos del Sensor MQ2
 En equipos de 4 integrantes, realizar la investigación, análisis, debate, conclusiones de las
