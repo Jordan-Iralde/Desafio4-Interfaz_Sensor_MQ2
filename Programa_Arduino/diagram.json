@@ -1,0 +1,75 @@
+{
+    "version": 1,
+    "author": "Jordan",
+    "editor": "wokwi",
+    "parts": [
+      { "type": "wokwi-breadboard-half", "id": "bb1", "top": 150.6, "left": 540.4, "attrs": {} },
+      { "type": "wokwi-arduino-nano", "id": "uno", "top": 148.8, "left": 181.9, "attrs": {} },
+      { "type": "chip-mq2", "id": "chip1", "top": 269.82, "left": 312, "attrs": {} },
+      {
+        "type": "wokwi-led",
+        "id": "led1",
+        "top": 217.2,
+        "left": 666.2,
+        "attrs": { "color": "red" }
+      },
+      {
+        "type": "wokwi-led",
+        "id": "led3",
+        "top": 217.2,
+        "left": 618.2,
+        "attrs": { "color": "yellow" }
+      },
+      {
+        "type": "wokwi-resistor",
+        "id": "r1",
+        "top": 310.6,
+        "left": 555.95,
+        "rotate": 270,
+        "attrs": { "value": "220" }
+      },
+      {
+        "type": "wokwi-led",
+        "id": "led2",
+        "top": 217.2,
+        "left": 570.2,
+        "attrs": { "color": "green" }
+      },
+      {
+        "type": "wokwi-resistor",
+        "id": "r2",
+        "top": 310.6,
+        "left": 661.55,
+        "rotate": 270,
+        "attrs": { "value": "220" }
+      },
+      {
+        "type": "wokwi-resistor",
+        "id": "r3",
+        "top": 310.6,
+        "left": 603.95,
+        "rotate": 270,
+        "attrs": { "value": "220" }
+      }
+    ],
+    "connections": [
+      [ "chip1:VCC", "uno:5V", "red", [ "h0" ] ],
+      [ "chip1:AO", "uno:A1", "orange", [ "h-153.6", "v-96" ] ],
+      [ "chip1:DO", "uno:2", "gold", [ "h-28.8", "v38.4", "h182.4", "v-220.8", "h-172.8" ] ],
+      [ "chip1:GND", "uno:GND.2", "black", [ "h-19.2", "v-153.6", "h-67.2" ] ],
+      [ "uno:GND.1", "bb1:bn.1", "black", [ "v0" ] ],
+      [ "r1:2", "led2:C", "black", [ "h0" ] ],
+      [ "uno:8", "led2:A", "green", [ "v115.2", "h345.6" ] ],
+      [ "uno:9", "led3:A", "green", [ "v115.2", "h412.8" ] ],
+      [ "uno:10", "led1:A", "green", [ "v115.2", "h470.4" ] ],
+      [ "led3:C", "r3:2", "black", [ "v0" ] ],
+      [ "led1:C", "r2:2", "black", [ "v0" ] ],
+      [ "r1:1", "bb1:bn.2", "", [ "$bb" ] ],
+      [ "r1:2", "bb1:3b.h", "", [ "$bb" ] ],
+      [ "r2:1", "bb1:bn.11", "", [ "$bb" ] ],
+      [ "r2:2", "bb1:14b.h", "", [ "$bb" ] ],
+      [ "r3:1", "bb1:bn.6", "", [ "$bb" ] ],
+      [ "r3:2", "bb1:8b.h", "", [ "$bb" ] ]
+    ],
+    "dependencies": {}
+  }

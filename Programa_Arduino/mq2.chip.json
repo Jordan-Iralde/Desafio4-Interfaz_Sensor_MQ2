@@ -1,0 +1,32 @@
+{
+    "name": "mq2",
+    "author": "Jordan Iralde",
+    "pins": [
+      "VCC",
+      "GND",
+      "DO",
+      "AO",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "controls": [
+      {
+        "id": "gas",
+        "label": "Smoke/Gas %",
+        "type": "range",
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      {
+        "id": "threshold",
+        "label": "Clean air threshold %",
+        "type": "range",
+        "min": 0,
+        "max": 100,
+        "step": 1
+      }
+    ]
+  }
