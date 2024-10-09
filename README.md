@@ -6,8 +6,10 @@
 <li>Maximiliano Olmos</li>
 
 ## Documentación
-Link al Canva:
+Link al Trello:
+https://trello.com/invite/b/670699cfad96f6addc53fe46/ATTIa381a2ac4102d80091938758aa10b61b77735316/desafio4robotica
 
+Link a la Documentacion:
 https://docs.google.com/document/d/1l-YgR61G4tXOCF7lm9tJ6MXk71gIP1nglVBSKCm5ll4/edit?usp=sharing
 
 ### Tasks
