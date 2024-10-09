@@ -75,3 +75,6 @@ Entrega: Por repositorio de GitHub 29/10/2024
 y tareas realizadas por cada uno, links de Figma o canva y que explique cómo conectar la PC
 con el Arduino para recibir los datos correctamente.
 • Incluye la documentación solicitada con capturas de pantalla y la reflexión.
+
+
+Reflexion Final:
