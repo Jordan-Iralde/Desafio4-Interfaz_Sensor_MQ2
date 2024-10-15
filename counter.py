@@ -1,26 +1,51 @@
-def main(page: ft.Page):
-    page.title = "Flet counter example"
-    page.vertical_alignment = ft.MainAxisAlignment.CENTER
+import flet as ft 
 
-    txt_number = ft.TextField(value="0", text_align=ft.TextAlign.RIGHT, width=100)
+def main(page: ft.Page):    #Creamos la ventana principal y adentro de esto es donde va a estar todo practicamente
+    page.title = "Calculadora"
+    result = ft.Text(value="0")
 
-    def minus_click(e):
-        txt_number.value = str(int(txt_number.value) - 1)
-        page.update()
+    page.add(# page.add seria como la funcion para agregar elementos a la aplicacion
+       ft.Row(controls=[result]),
+       ft.Row( #Row seria la funcion de ordenar los elementos uno al lado del otro de manera horizontal, la variable controls la desconozco, pero por logica me imagino que es parte de la funcion
+            controls = [
+                ft.ElevatedButton(text="AC"),
+                ft.ElevatedButton(text="+/-"),
+                ft.ElevatedButton(text="%"),
+                ft.ElevatedButton(text="/"),
+            ]
+       ), 
+       ft.Row(
+            controls = [
+                ft.ElevatedButton(text="7"),
+                ft.ElevatedButton(text="8"),
+                ft.ElevatedButton(text="9"),
+                ft.ElevatedButton(text="*")
 
-    def plus_click(e):
-        txt_number.value = str(int(txt_number.value) + 1)
-        page.update()
-
-    page.add(
+            ]
+       ), #se cierra la funcion row con , como si fuera ; 
+       ft.Row(
+            controls=[
+                ft.ElevatedButton(text="4"),
+                ft.ElevatedButton(text="5"),
+                ft.ElevatedButton(text="6"),
+                ft.ElevatedButton(text="-"),
+            ]
+        ),
         ft.Row(
-            [
-                ft.IconButton(ft.icons.REMOVE, on_click=minus_click),
-                txt_number,
-                ft.IconButton(ft.icons.ADD, on_click=plus_click),
-            ],
-            alignment=ft.MainAxisAlignment.CENTER,
-        )
+            controls=[
+                ft.ElevatedButton(text="1"),
+                ft.ElevatedButton(text="2"),
+                ft.ElevatedButton(text="3"),
+                ft.ElevatedButton(text="+"),
+            ]
+        ),
+        ft.Row(
+             controls=[
+                ft.ElevatedButton(text="0"),
+                ft.ElevatedButton(text="."),
+                ft.ElevatedButton(text="="),
+            ]
+        ),
     )
 
-ft.app(main)
+ft.app(main)# es para ejecutar la ventana
