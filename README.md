@@ -12,18 +12,36 @@ https://trello.com/invite/b/670699cfad96f6addc53fe46/ATTIa381a2ac4102d8009193875
 Link a la Documentacion:
 https://docs.google.com/document/d/1l-YgR61G4tXOCF7lm9tJ6MXk71gIP1nglVBSKCm5ll4/edit?usp=sharing
 
-### Tasks
+Link al Figma:
+https://www.figma.com/design/FZXvzcFbItyY1XtRRzq6Qz/Desafio_4_dise%C3%B1o?node-id=0-1&m=dev&t=b1GCJQuWSaobxicu-1
 
+### Tareas
 :white_check_mark: representa una tarea que está en la lista para hacer o completada.
 :hourglass_flowing_sand: se utiliza para una tarea que está en progreso.
-
 | **Tarea**            | **Hacer**            | **Haciendo**          | **Hecho**             |
 |----------------------|----------------------|-----------------------|-----------------------|
 | Hacer Repositorio    |                      |                       | :white_check_mark:    |
-| Investigar UX/UI     |                      | :white_check_mark:    |                       |
+| Investigar UX/UI     |                      | :hourglass_flowing_sand:   |                       |
 | Programa En Python   |:hourglass_flowing_sand:|                     |                       |
 | Documentacion        |:hourglass_flowing_sand:                      |                       |
 | |                      |                       |                       |
+
+---
+
+# Resumen del Proyecto
+<p> Este proyecto trata de un dispositivo con conexion bluetooth en el cual recibiremos datos acerca de la cantidad de gas que se encuentra en el aire y los mostraremos en pantalla</p>
+<p> Para esto usaremos python y librerias para el bluetooth, interfaz y visualizacion de datos</p>
+
+<br>
+
+# Nuestros Objetivos
+<p> Los objetivos que tenemos son... </p>
+<ul>
+  <li> Hacer un diseño para Celular y PC </li>
+  <li> Aprender sobre el manejo de Bluetooth con Python </li>
+  <li> Aprender sobre UX/UI </li>
+  <li> A</li>
+</ul>
 
 ---
 Desafío 4: Desarrollo de una Interfaz para la Visualización de Datos del Sensor MQ2
