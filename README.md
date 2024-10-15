@@ -38,8 +38,9 @@ https://www.figma.com/design/FZXvzcFbItyY1XtRRzq6Qz/Desafio_4_dise%C3%B1o?node-i
 <p> Los objetivos que tenemos son... </p>
 <ul>
   <li> Hacer un diseño para Celular y PC </li>
-  <li> Aprender sobre el manejo de Bluetooth con Python</li>
-  <li> Elemento 3</li>
+  <li> Aprender sobre el manejo de Bluetooth con Python </li>
+  <li> Aprender sobre UX/UI </li>
+  <li> A</li>
 </ul>
 
 ---
