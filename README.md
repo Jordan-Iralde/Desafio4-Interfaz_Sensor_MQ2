@@ -96,3 +96,4 @@ con el Arduino para recibir los datos correctamente.
 
 
 Reflexion Final:
+No nos gusta el trabajo, sin embargo hemos aprendido mucho sobre el camino, a trabajar en grupo y no solo ser un grupo, sino ser un equipo. Este trabajo nos hizo pensar, debatir, nos dio a conocer acerca de Flet, Tkinter, Python, Java, Swing, para lograr nuestros objetivos. Estos mismos, que fueron planteados casi desde el primer día en nuestro trabajo, así mismo como esta documentación, el tablero de Trello y los diseños de Figma. Cosas que en el proceso, de aprender acerca de la UI/UX nos sirvió para mejorar no solo en este trabajo, sino que también para otras materias. Por más de no ser un trabajo que disfrutamos, pudimos obtener conocimiento sobre temas y herramientas que estamos más que seguros que nos va a servir más adelante o actualmente con proyectos personales.
