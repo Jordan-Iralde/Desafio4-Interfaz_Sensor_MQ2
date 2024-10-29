@@ -21,10 +21,10 @@ https://www.figma.com/design/FZXvzcFbItyY1XtRRzq6Qz/Desafio_4_dise%C3%B1o?node-i
 | **Tarea**            | **Hacer**            | **Haciendo**          | **Hecho**             |
 |----------------------|----------------------|-----------------------|-----------------------|
 | Hacer Repositorio    |                      |                       | :white_check_mark:    |
-| Investigar UX/UI     |                      | :hourglass_flowing_sand:   |                       |
-| Programa En Python   |:hourglass_flowing_sand:|                     |                       |
-| Documentacion        |:hourglass_flowing_sand:                      |                       |
-| |                      |                       |                       |
+| Investigar UX/UI     |                      |                       | :white_check_mark:    |
+| Programa En Python   |                      |                       | :white_check_mark:    |
+| Documentacion        |                      |:hourglass_flowing_sand:|                      |
+| Nueva GUI            |                      |:hourglass_flowing_sand:|                      |
 
 ---
 
@@ -40,7 +40,7 @@ https://www.figma.com/design/FZXvzcFbItyY1XtRRzq6Qz/Desafio_4_dise%C3%B1o?node-i
   <li> Hacer un diseño para Celular y PC </li>
   <li> Aprender sobre el manejo de Bluetooth con Python </li>
   <li> Aprender sobre UX/UI </li>
-  <li> A</li>
+  <li> Aprender Tkinter y Java</li>
 </ul>
 
 ---
