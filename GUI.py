@@ -39,7 +39,7 @@ puntos = []
 # Función para actualizar el porcentaje y el color de la etiqueta `variableGas`
 def actualizar_porcentaje():
     global porcentaje, puntos
-    if porcentaje < 100:  # Limita el porcentaje hasta 100
+    if porcentaje < 101:  # Limita el porcentaje hasta 100
         porcentaje = random.randint(0, 100)
         print(porcentaje)
         label.config(text=f"{porcentaje}%")  # Actualiza el texto en la etiqueta de porcentaje
